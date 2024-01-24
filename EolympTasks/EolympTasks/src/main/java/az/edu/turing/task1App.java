@@ -7,9 +7,8 @@ public class task1App {
         int number = new Scanner(System.in).nextInt();
         int a;
         for (int i = 10; i > 0; i /= 10) {
-            System.out.print(number / i +" ") ;
+            System.out.print(number / i + " ");
             number %= i;
         }
-
     }
 }
