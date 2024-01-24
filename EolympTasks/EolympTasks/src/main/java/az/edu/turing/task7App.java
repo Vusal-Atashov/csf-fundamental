@@ -4,9 +4,9 @@ import java.util.Scanner;
 
 public class task7App {
     public static void main(String[] args) {
-        int monthNum = new Scanner(System.in).nextInt();
+        int month = new Scanner(System.in).nextInt();
 
-        switch (monthNum) {
+        switch (month) {
             case 1: System.out.println("January"); break;
             case 2: System.out.println("February"); break;
             case 3: System.out.println("March"); break;
@@ -19,7 +19,7 @@ public class task7App {
             case 10: System.out.println("October"); break;
             case 11: System.out.println("November"); break;
             case 12: System.out.println("December"); break;
-            default: System.out.println("Not valid month!");
+            default: System.out.println("Wrong month!");
         }
     }
 }
