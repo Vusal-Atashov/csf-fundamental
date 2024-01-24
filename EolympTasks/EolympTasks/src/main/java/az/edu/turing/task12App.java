@@ -7,8 +7,8 @@ public class task12App {
 
         Scanner scanner = new Scanner(System.in);
         int a = scanner.nextInt();
-        if (a<5) {
-            System.out.println(a*a-3*a+4);
-        } else System.out.println(a+7);
+        if (a < 5) {
+            System.out.println(a * a - 3 * a + 4);
+        } else System.out.println(a + 7);
     }
 }
