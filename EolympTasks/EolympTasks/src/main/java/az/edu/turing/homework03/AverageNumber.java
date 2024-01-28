@@ -11,13 +11,13 @@ public class AverageNumber {
             arr[i] = number.nextInt();
         }
         int average;
-           if ((arr[0] >= arr[1] && arr[0] <= arr[2]) || (arr[0] >= arr[2] && arr[0] <= arr[1])) {
-              average=arr[0];
-           } else if ((arr[1] >= arr[0] && arr[1] <= arr[2]) || (arr[1] >= arr[2] && arr[1] <= arr[0])) {
-               average = arr[1];
-           } else {
-               average = arr[2];
-           }
+        if ((arr[0] >= arr[1] && arr[0] <= arr[2]) || (arr[0] >= arr[2] && arr[0] <= arr[1])) {
+            average = arr[0];
+        } else if ((arr[1] >= arr[0] && arr[1] <= arr[2]) || (arr[1] >= arr[2] && arr[1] <= arr[0])) {
+            average = arr[1];
+        } else {
+            average = arr[2];
+        }
         System.out.println(average);
     }
 }
