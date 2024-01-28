@@ -1,4 +1,4 @@
-package az.edu.turing;
+package az.edu.turing.homework02;
 
 import java.util.Scanner;
 
