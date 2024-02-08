@@ -6,7 +6,7 @@ public class FunctionApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
-        double y = ((Math.sqrt(Math.pow(x, 4) + 1)) / Math.pow(x, 2)) - (Math.sqrt(Math.pow(x, 2) / (Math.pow(x, 2) + 1)));
+        double y =(((2*x)-1)/(Math.pow(x,2))+((Math.sqrt(Math.pow(x,2)+1))/2));
         System.out.printf("%.3f", y);
     }
 }
