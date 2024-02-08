@@ -8,8 +8,9 @@ public class FunctionApp
     {
         Scanner con = new Scanner(System.in);
         double x = con.nextDouble();
-        double y = (x * x + 3 * x - 4) / (2 * x - 3)-(x + 2) / (x * x - 5 * x + 7);
+        double y =Math.pow(x,3)-((5*Math.pow(x,2))/7)+(9*x)-(3/x)+1;
         System.out.printf("%.3f",y);
+        con.close();
     }
 }
 
