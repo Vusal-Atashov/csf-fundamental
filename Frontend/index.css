@@ -1,0 +1,30 @@
+#div1 {
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 30px;
+  border-radius: 20%;
+}
+.arxafon {
+  background-color: rgb(255, 255, 255);
+}
+h2 {
+  color: white;
+}
+button {
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgb(255, 0, 0);
+  font-size: 20px;
+  border: solid 2px white;
+}
+img {
+  border: solid 2px white;
+  border-radius: 10px;
+}
