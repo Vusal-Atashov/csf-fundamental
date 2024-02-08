@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class DollarsInBank {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int x = scanner.nextInt();
-        int dollar=1;
-        int year=0;
-        while (dollar!=x){
-            dollar=dollar+dollar*2;
+        long x = scanner.nextInt();
+        long year=0;
+        x=x+1;
+        while (x>1){
+            x=x/2;
             year++;
         }
-        System.out.println(year);
+        System.out.println(year-1);
     }
 }
