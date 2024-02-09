@@ -3,25 +3,20 @@ package az.edu.turing.homework04;
 import java.util.Scanner;
 
 public class FunctionApp {
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (scanner.hasNext()) {
-            // Read the value of x
-            double x = scanner.nextDouble();
+        long n = scanner.nextLong();
+        for (int i = 1; i <= Math.sqrt(n); i++) {
 
-            // Evaluate the function f(x)
-            double result = evaluateFunction(x);
+                System.out.print((long) Math.pow(i, 2)+" ");
 
-            // Print the result with four digits after the decimal point
-            System.out.printf("%.4f\n", result);
         }
+
+
+        scanner.close();
     }
 
-    // Function to evaluate f(x) = x^3 + 2x^2 - 3
-    public static double evaluateFunction(double x) {
-        return x*x*x + 2*x*x - 3;
-    }
 }
-
 
