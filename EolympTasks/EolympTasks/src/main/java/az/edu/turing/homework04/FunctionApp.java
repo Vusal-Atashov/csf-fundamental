@@ -4,18 +4,12 @@ import java.util.Scanner;
 
 public class FunctionApp {
     public static void main(String[] args) {
-        Scanner con = new Scanner(System.in);
-        long k = con.nextInt();
-        long sum = 0;
-        long n = 1;
-        while (true) {
-            sum += n;
-            if (sum % k == 0) {
-                System.out.println(n);
-                break;
-            }
-            n++;
-        }
+        Scanner scanner = new Scanner(System.in);
+        long x = scanner.nextInt();
+        long y = scanner.nextInt();
+        long z = scanner.nextInt();
+        long f =((x * y * z) + x + (y*y) + (z*z*z));
+        System.out.println(f);
     }
 }
 
