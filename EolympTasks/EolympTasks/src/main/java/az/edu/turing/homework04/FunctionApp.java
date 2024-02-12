@@ -6,10 +6,13 @@ public class FunctionApp {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        long n = scanner.nextLong();
+        long sum=0;
+        for (int i = 1; i <= n; i++) {
+            sum+= (long) Math.pow(i,2);
 
-        int a=scanner.nextInt();
-        int b=scanner.nextInt();
-        System.out.println((int)Math.pow(2,a)+(int)Math.pow(2,b));
+        }
+        System.out.println(sum);
     }
 
 }
