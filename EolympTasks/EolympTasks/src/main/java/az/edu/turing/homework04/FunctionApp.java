@@ -6,21 +6,16 @@ public class FunctionApp {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int n= scanner.nextInt();
 
+        while (scanner.hasNext()) {
 
-        String quarter;
-        if (n >= 1 && n <= 3) {
-            quarter = "First";
-        } else if (n >= 4 && n <= 6) {
-            quarter = "Second";
-        } else if (n >= 7 && n <= 9) {
-            quarter = "Third";
-        } else {
-            quarter = "Fourth";
+            int a = scanner.nextInt();
+            int b = scanner.nextInt();
+
+            int sum = a + b;
+
+            System.out.println(sum);
         }
-
-        System.out.println(quarter);
     }
 
 }
