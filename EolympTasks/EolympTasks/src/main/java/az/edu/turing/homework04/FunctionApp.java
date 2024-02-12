@@ -7,15 +7,21 @@ public class FunctionApp {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        while (scanner.hasNext()) {
+        int n = scanner.nextInt();
 
-            int a = scanner.nextInt();
-            int b = scanner.nextInt();
-
-            int sum = a + b;
-
-            System.out.println(sum);
+        int product = 1;
+        int sum = 0;
+        int temp = n;
+        while (temp > 0) {
+            int digit = temp % 10;
+            product *= digit;
+            sum += digit;
+            temp /= 10;
         }
+
+        double ratio = (double) product / sum;
+
+        System.out.printf("%.3f\n", ratio);
     }
 
 }
