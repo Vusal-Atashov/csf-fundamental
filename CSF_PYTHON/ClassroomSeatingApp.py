@@ -1,6 +1,6 @@
 import random
 
-class ClassroomSeating:
+class ClassroomSeatingApp:
     def __init__(self, names):
         self.names = names
 
@@ -35,7 +35,7 @@ def main():
         "Hacıyeva Nərmin"
     ]
 
-    class_seating = ClassroomSeating(names)
+    class_seating = ClassroomSeatingApp(names)
     class_seating.display_seating()
 
 if __name__ == "__main__":
